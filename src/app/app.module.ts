@@ -27,7 +27,7 @@ import {AuthGuardService} from './services/auth-guard.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [AuthService, BooksService,AuthGuardService],
+  providers: [AuthService, BooksService, AuthGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
